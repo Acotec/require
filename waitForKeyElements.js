@@ -2,11 +2,10 @@
     that detects and handles AJAXed content.
 
     Usage example:
+      in your script load the function with ;
+      // @require  https://github.com/Acotec/require/raw/master/waitForKeyElements.js
 
-        waitForKeyElements (
-            "div.comments"
-            , commentCallbackFunction
-        );
+        waitForKeyElements ("div.comments", commentCallbackFunction);
 
         //--- Page-specific function to do what we want when the node is found.
         function commentCallbackFunction (jNode) {
