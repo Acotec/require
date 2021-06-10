@@ -1,8 +1,9 @@
 # require
 Helper Functions For autoFcb Scripts
-Forks from https://userscripts-mirror.org/scripts/show/107941
+Forks from https://userscripts-mirror.org/scripts/show/107941   //SuperGM
+           https://gist.github.com/BrockA/2625891               //WaitForKeyElements
 
-This version decrease the size of the code and correct some error to make it perfect for tamperMonkey
+This version decrease the size of the code(minified) and correct some error to make it perfect for tamperMonkey
 
 This library extends the Greasemonkey/TamperMonkey GM_setValue() and GM_getValue() functions to handle any javascript variable type.
 
