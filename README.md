@@ -1,10 +1,12 @@
 # require
 Helper Functions For autoFcb Scripts
 Forks from https://userscripts-mirror.org/scripts/show/107941   //SuperGM
-           https://gist.github.com/BrockA/2625891               //WaitForKeyElements
+           https://gist.github.com/BrockA/2625891               //WaitForKeyElements by BrockA(GOOD)
+           https://github.com/CoeJoder/waitForKeyElements.js    //WaitForKeyElements by CoeJoder(GOOD) and suitable for what i needed it for
 
 This version decrease the size of the code(minified) and correct some error to make it perfect for tamperMonkey
 
+ //SuperGM
 This library extends the Greasemonkey/TamperMonkey GM_setValue() and GM_getValue() functions to handle any javascript variable type.
 
 A library is necessary because [GM_setValue](http://wiki.greasespot.net/GM_setValue) only stores: strings, booleans, and 32-bit integers. 
@@ -22,3 +24,9 @@ In your user script,you can use like this;
        var x = GM_SuperValue.get (varName, defaultValue);
 
 That is, just like you would use GM_setValue and GM_getValue, but without the worries of the script breaking on invalid values.
+
+
+
+//WaitForKeyElements
+  usage; 
+  https://github.com/CoeJoder/waitForKeyElements.js or https://gist.github.com/BrockA/2625891
